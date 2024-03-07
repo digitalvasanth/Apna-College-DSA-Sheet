@@ -1,4 +1,4 @@
-import java.util.*;
+
 public class REVERSEARRAY{
 
     public static void print(int arr[]){
