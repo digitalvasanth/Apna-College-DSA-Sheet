@@ -1,7 +1,7 @@
 import java.util.*;
 
 
-public class Main
+public class MinAndMaxElement
 {     //method 1
     // public static void findminandmax(int arr[]){
     //     Arrays.sort(arr);
