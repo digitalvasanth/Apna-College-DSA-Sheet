@@ -19,7 +19,7 @@ public class SearchInRotatedSortedArray {
         while(low<=high){
                 int mid=(low+high)/2;
 
-                if(target==arr[mid])
+                if(target==arr[mid]) // target found
                 return mid;
 
                 if(arr[low]<=arr[mid]){
@@ -42,7 +42,7 @@ public class SearchInRotatedSortedArray {
     }
 
     public static void main(String args[]){
-        int arr[]={4,5,6,7,0,1,2};
+        int arr[]={4,5,6,7,0,1,2};//output should be 4
         int target=0;
 System.out.println(search(arr,target));
 
